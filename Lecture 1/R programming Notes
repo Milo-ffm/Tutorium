@@ -1,0 +1,30 @@
+We will learn about the following in this topics in this tutorial:
+
+-R basic
+-data.table
+ggplot2
+-dplyr
+-knitr
+-magrittr
+
+import all packages above
+    
+    ```r    
+    library(data.table)
+    library(ggplot2)
+    library(dplyr)
+    library(knitr)
+    library(magrittr)
+    ```
+    
+    ```r
+
+    # generate 100 random numbres for x and y
+    # plot it with basic R plot function
+
+   
+
+# use data.table create a 3 rows and 2 columns data table
+dt <- data.table(x = 1:3,y = 4:6)
+
+< 

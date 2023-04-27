@@ -1,0 +1,74 @@
+# Tutorial 1 Notes 1
+
+
+We will learn how to use the following tools:
+
+1. Viusal Studio Code
+2. Github
+## Markdown Basic
+
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.
+
+### Headings
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+
+How do i type math equation? $x^2$
+
+give me the equation for normal distribution $f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+
+How does a normal distribution look like?  
+![Normal Distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/1200px-Normal_Distribution_PDF.svg.png)
+
+How does Serbia flag look like?     
+![Serbia Flag](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1200px-Flag_of_Serbia.svg.png)
+
+#how is the weather going to be like for tomorrow?
+![Weather](https://www.accuweather.com/images/weathericons/34.svg)
+
+
+### Set up R working enviroment
+
+Install R in Linux, give me command
+    
+    ```bash
+    #update first
+    sudo apt update
+    sudo apt upgrade
+    #install R
+    sudo apt install r-base
+    #install Rstudio
+
+How to install packages in R?  
+-data.table
+-ggplot2
+```-dplyr
+-magrittr
+-knitr
+
+How to install packages in R?
+
+```r
+#install.packages("data.table")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+#install.packages("magrittr")
+
+#install.packages("knitr")
+```
+## Install R kernel for Jupyter Notebook
+
+```bash
+#install.packages("IRkernel")
+sudo apt-get install jupyter-notebook
+```
+```r    
+install.packages('IRkernel')
+
+IRkernel::installspec()
+```
+
+
