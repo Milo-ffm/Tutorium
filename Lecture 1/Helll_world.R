@@ -68,3 +68,11 @@ my_data %>%
     kable()
 
 install.packages("curl")
+
+# create a data.table with 3 columns and 10 rows
+# one column is a sequence of numbers
+# one column is hello repeated 10 times
+# third column is drawn from normal distribution
+data(iris)
+
+calculate the mean of Sepal.Length
